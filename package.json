@@ -1,0 +1,13 @@
+{
+  "name": "@joanastoa/test-package",
+  "version": "1.0.0",
+  "description": "This is a test package.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "npx pretter --write ."
+    },
+  "author": "joanastoa",
+  "license": "GPL-3.0",
+  "repository": "https://github.com/joanastoa/test-package.git"
+  }
