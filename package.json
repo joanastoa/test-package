@@ -1,13 +1,16 @@
 {
   "name": "@joanastoa/test-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a test package.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "npx pretter --write ."
-    },
+    "lint": "npx prettier --write ."
+  },
   "author": "joanastoa",
   "license": "GPL-3.0",
-  "repository": "https://github.com/joanastoa/test-package.git"
+  "repository": "https://github.com/joanastoa/test-package.git",
+  "devDependencies": {
+    "prettier": "^2.8.8"
   }
+}
